@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: library-back 
+  data: 
+    mongodb:
+      uri: mongodb://odix:odix@mongo.odix.fr:27017/admin
+server:
+  port: 8000
+
+ 
