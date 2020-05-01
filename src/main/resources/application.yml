@@ -3,6 +3,7 @@ spring:
     name: library-back 
   data: 
     mongodb:
+      auto-index-creation: false
       uri: mongodb://odix:odix@mongo.odix.fr:27017/admin
 server:
   port: 8000
