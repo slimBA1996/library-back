@@ -1,0 +1,6 @@
+/home/slim/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/library-back/src/main/java/com/smartgraphe/LibraryFrontApplication.java
+/home/slim/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/library-back/src/main/java/com/smartgraphe/controller/LivreController.java
+/home/slim/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/library-back/src/main/java/com/smartgraphe/repository/LivreRepository.java
+/home/slim/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/library-back/src/main/java/com/smartgraphe/service/LivreServiceImpl.java
+/home/slim/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/library-back/src/main/java/com/smartgraphe/model/Livre.java
+/home/slim/Documents/workspace-spring-tool-suite-4-4.5.1.RELEASE/library-back/src/main/java/com/smartgraphe/service/LivreService.java
