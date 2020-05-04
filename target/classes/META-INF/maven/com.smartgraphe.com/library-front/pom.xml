@@ -55,7 +55,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
-		<finalName>library-back</finalName>
+		<finalName>backend-MS</finalName>
 	</build>
 
 </project>

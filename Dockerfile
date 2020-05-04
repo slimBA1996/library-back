@@ -1,4 +1,4 @@
-FROM openjdk:8
-EXPOSE 8080
-ADD target/library-back.jar library-back.jar 
-ENTRYPOINT ["java","-jar","/library-back.jar"]
+### STAGE 1: Build ###
+FROM openjdk:8-alpine
+ADD target/backend-MS.jar backend-MS.jar
+ENTRYPOINT ["java","-jar","/backend-MS.jar"]
