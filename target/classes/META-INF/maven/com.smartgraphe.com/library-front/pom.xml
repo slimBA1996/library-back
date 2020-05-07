@@ -55,7 +55,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
-		<finalName>backend-MS</finalName>
+		<finalName>backend-ms</finalName>
 	</build>
 
 </project>
