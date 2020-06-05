@@ -4,7 +4,7 @@ spring:
   data: 
     mongodb:
       auto-index-creation: false
-      uri: mongodb://odix:odix@mongo.odix.fr:27017/admin
+      uri: mongodb://localhost:27017/library-ms
 server:
   port: 8000
 

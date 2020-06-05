@@ -19,6 +19,10 @@ import com.smartgraphe.service.LivreService;
 @CrossOrigin
 @RestController
 @RequestMapping("/api/livre")
+/*
+ * ! book controller
+ */
+
 public class LivreController {
 
 	@Autowired
@@ -28,26 +32,49 @@ public class LivreController {
 		this.livreService = livreService;
 	}
 
+	/**
+	 * 
+	 * @return this method returns the list of books
+	 */
 	@GetMapping()
 	public List<Livre> getAllLivres() {
 		return livreService.getAllLivres();
 	}
 
-	@GetMapping("{nomLivre}")
+	/**
+	 * 
+	 * @param nomLivre book name
+	 * @return this method returns the wanted book
+	 */
+	@GetMapping("/{nomLivre}")
 	public Livre getLivre(@PathVariable String nomLivre) {
 		return livreService.getLivre(nomLivre);
 	}
 
+	/**
+	 * 
+	 * @param livre book to add
+	 * @return
+	 */
 	@PostMapping()
 	public Livre addLivre(@RequestBody Livre livre) {
 		return livreService.addLivre(livre);
 	}
 
+	/**
+	 * 
+	 * @param livre book to edit
+	 * @return
+	 */
 	@PutMapping()
 	public Livre editLivre(@RequestBody Livre livre) {
 		return livreService.editLivre(livre);
 	}
 
+	/**
+	 * 
+	 * @param nomLivre name of book to delete
+	 */
 	@DeleteMapping("/{nomLivre}")
 	public void deleteLivre(@PathVariable String nomLivre) {
 		livreService.deleteLivre(nomLivre);

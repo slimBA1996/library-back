@@ -1,0 +1,103 @@
+\hypertarget{classcom_1_1smartgraphe_1_1controller_1_1LivreController}{}\doxysection{com.\+smartgraphe.\+controller.\+Livre\+Controller Class Reference}
+\label{classcom_1_1smartgraphe_1_1controller_1_1LivreController}\index{com.smartgraphe.controller.LivreController@{com.smartgraphe.controller.LivreController}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ \mbox{\hyperlink{classcom_1_1smartgraphe_1_1model_1_1Livre}{Livre}} $>$ \mbox{\hyperlink{classcom_1_1smartgraphe_1_1controller_1_1LivreController_a15ce4081c05f31ed24572dd68a51c8c8}{get\+All\+Livres}} ()
+\item 
+\mbox{\hyperlink{classcom_1_1smartgraphe_1_1model_1_1Livre}{Livre}} \mbox{\hyperlink{classcom_1_1smartgraphe_1_1controller_1_1LivreController_aa23328b494fa2539b8c6e1059922792d}{get\+Livre}} (@Path\+Variable String nom\+Livre)
+\item 
+\mbox{\hyperlink{classcom_1_1smartgraphe_1_1model_1_1Livre}{Livre}} \mbox{\hyperlink{classcom_1_1smartgraphe_1_1controller_1_1LivreController_acf96b07e2744aa58bab1aa4821c6f630}{add\+Livre}} (@Request\+Body \mbox{\hyperlink{classcom_1_1smartgraphe_1_1model_1_1Livre}{Livre}} livre)
+\item 
+\mbox{\hyperlink{classcom_1_1smartgraphe_1_1model_1_1Livre}{Livre}} \mbox{\hyperlink{classcom_1_1smartgraphe_1_1controller_1_1LivreController_a01f7d9d8ea776dcf450b4d77ba080849}{edit\+Livre}} (@Request\+Body \mbox{\hyperlink{classcom_1_1smartgraphe_1_1model_1_1Livre}{Livre}} livre)
+\item 
+void \mbox{\hyperlink{classcom_1_1smartgraphe_1_1controller_1_1LivreController_a43b44fbc6805e75b386ab6fa47709982}{delete\+Livre}} (@Path\+Variable String nom\+Livre)
+\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+final \mbox{\hyperlink{interfacecom_1_1smartgraphe_1_1service_1_1LivreService}{Livre\+Service}} \mbox{\hyperlink{classcom_1_1smartgraphe_1_1controller_1_1LivreController_ac63e092a7f77741d6f132fde8deb3fd5}{livre\+Service}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+book controller 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classcom_1_1smartgraphe_1_1controller_1_1LivreController_acf96b07e2744aa58bab1aa4821c6f630}\label{classcom_1_1smartgraphe_1_1controller_1_1LivreController_acf96b07e2744aa58bab1aa4821c6f630}} 
+\index{com.smartgraphe.controller.LivreController@{com.smartgraphe.controller.LivreController}!addLivre@{addLivre}}
+\index{addLivre@{addLivre}!com.smartgraphe.controller.LivreController@{com.smartgraphe.controller.LivreController}}
+\doxysubsubsection{\texorpdfstring{addLivre()}{addLivre()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classcom_1_1smartgraphe_1_1model_1_1Livre}{Livre}} com.\+smartgraphe.\+controller.\+Livre\+Controller.\+add\+Livre (\begin{DoxyParamCaption}\item[{@Request\+Body \mbox{\hyperlink{classcom_1_1smartgraphe_1_1model_1_1Livre}{Livre}}}]{livre }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em Livre} & book to add \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcom_1_1smartgraphe_1_1controller_1_1LivreController_a43b44fbc6805e75b386ab6fa47709982}\label{classcom_1_1smartgraphe_1_1controller_1_1LivreController_a43b44fbc6805e75b386ab6fa47709982}} 
+\index{com.smartgraphe.controller.LivreController@{com.smartgraphe.controller.LivreController}!deleteLivre@{deleteLivre}}
+\index{deleteLivre@{deleteLivre}!com.smartgraphe.controller.LivreController@{com.smartgraphe.controller.LivreController}}
+\doxysubsubsection{\texorpdfstring{deleteLivre()}{deleteLivre()}}
+{\footnotesize\ttfamily void com.\+smartgraphe.\+controller.\+Livre\+Controller.\+delete\+Livre (\begin{DoxyParamCaption}\item[{@Path\+Variable String}]{nom\+Livre }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em nom\+Livre} & name of book to delete \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classcom_1_1smartgraphe_1_1controller_1_1LivreController_a01f7d9d8ea776dcf450b4d77ba080849}\label{classcom_1_1smartgraphe_1_1controller_1_1LivreController_a01f7d9d8ea776dcf450b4d77ba080849}} 
+\index{com.smartgraphe.controller.LivreController@{com.smartgraphe.controller.LivreController}!editLivre@{editLivre}}
+\index{editLivre@{editLivre}!com.smartgraphe.controller.LivreController@{com.smartgraphe.controller.LivreController}}
+\doxysubsubsection{\texorpdfstring{editLivre()}{editLivre()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classcom_1_1smartgraphe_1_1model_1_1Livre}{Livre}} com.\+smartgraphe.\+controller.\+Livre\+Controller.\+edit\+Livre (\begin{DoxyParamCaption}\item[{@Request\+Body \mbox{\hyperlink{classcom_1_1smartgraphe_1_1model_1_1Livre}{Livre}}}]{livre }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em livre} & book to edit \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcom_1_1smartgraphe_1_1controller_1_1LivreController_a15ce4081c05f31ed24572dd68a51c8c8}\label{classcom_1_1smartgraphe_1_1controller_1_1LivreController_a15ce4081c05f31ed24572dd68a51c8c8}} 
+\index{com.smartgraphe.controller.LivreController@{com.smartgraphe.controller.LivreController}!getAllLivres@{getAllLivres}}
+\index{getAllLivres@{getAllLivres}!com.smartgraphe.controller.LivreController@{com.smartgraphe.controller.LivreController}}
+\doxysubsubsection{\texorpdfstring{getAllLivres()}{getAllLivres()}}
+{\footnotesize\ttfamily List$<$\mbox{\hyperlink{classcom_1_1smartgraphe_1_1model_1_1Livre}{Livre}}$>$ com.\+smartgraphe.\+controller.\+Livre\+Controller.\+get\+All\+Livres (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+\begin{DoxyReturn}{Returns}
+this method returns the list of books ~\newline
+ 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classcom_1_1smartgraphe_1_1controller_1_1LivreController_aa23328b494fa2539b8c6e1059922792d}\label{classcom_1_1smartgraphe_1_1controller_1_1LivreController_aa23328b494fa2539b8c6e1059922792d}} 
+\index{com.smartgraphe.controller.LivreController@{com.smartgraphe.controller.LivreController}!getLivre@{getLivre}}
+\index{getLivre@{getLivre}!com.smartgraphe.controller.LivreController@{com.smartgraphe.controller.LivreController}}
+\doxysubsubsection{\texorpdfstring{getLivre()}{getLivre()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classcom_1_1smartgraphe_1_1model_1_1Livre}{Livre}} com.\+smartgraphe.\+controller.\+Livre\+Controller.\+get\+Livre (\begin{DoxyParamCaption}\item[{@Path\+Variable String}]{nom\+Livre }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em nom\+Livre} & book name \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+this method returns the wanted book 
+\end{DoxyReturn}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classcom_1_1smartgraphe_1_1controller_1_1LivreController_ac63e092a7f77741d6f132fde8deb3fd5}\label{classcom_1_1smartgraphe_1_1controller_1_1LivreController_ac63e092a7f77741d6f132fde8deb3fd5}} 
+\index{com.smartgraphe.controller.LivreController@{com.smartgraphe.controller.LivreController}!livreService@{livreService}}
+\index{livreService@{livreService}!com.smartgraphe.controller.LivreController@{com.smartgraphe.controller.LivreController}}
+\doxysubsubsection{\texorpdfstring{livreService}{livreService}}
+{\footnotesize\ttfamily final \mbox{\hyperlink{interfacecom_1_1smartgraphe_1_1service_1_1LivreService}{Livre\+Service}} com.\+smartgraphe.\+controller.\+Livre\+Controller.\+livre\+Service\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/main/java/com/smartgraphe/controller/\mbox{\hyperlink{LivreController_8java}{Livre\+Controller.\+java}}\end{DoxyCompactItemize}

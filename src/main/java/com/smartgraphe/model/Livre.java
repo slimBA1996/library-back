@@ -4,16 +4,21 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.index.Indexed;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+/**
+ * 
+ * @author slim
+ *
+ */
 @Document
 public class Livre {
 
+	
 	@Id
-	private String id;
-	
+	private String id; 
 	@Indexed(unique=true)
-	private String nomLivre;
+	private String nomLivre; //book name
 	
-	private String descriptionLivre;
+	private String descriptionLivre; //description of the book 
 
 	public Livre(String nomLivre, String descriptionLivre) {
 		super();
